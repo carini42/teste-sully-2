@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-header{
+    width: 91px;
+    height: 60px;
+}
+
+nav ul , .header-cont ul {
+    display: flex;
+}
+
+nav ul li a {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;    
+}
+
+nav ul li:nth-child(2) {
+    margin: 0px 33px;
+}
+
+.header-cont ul li:last-child a {
+    display: flex;
+    height: none;
+}
+
+.header-cont ul li:last-child a img {
+    height: 17px;
+    width: 17px;
+    margin-right: 8px;
+}
+
+.header-cont ul li:last-child a p {
+    margin: 0;
+}
+
+.header-cont {
+    font: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#barra {
+    margin: 0px 32px;
+    color:#DAD8D8;
+
+}
